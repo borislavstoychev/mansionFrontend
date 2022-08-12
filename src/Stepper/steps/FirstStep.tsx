@@ -209,8 +209,9 @@ export default () => {
           onBlur={(e) => onBlur(e)}
         />
         <label style={{ display: "block" }}>
-          By checking this box, I agree to <a href="#">Terms & Conditions</a> of
-          the site.
+          By checking this box, I agree to{" "}
+          <button className="button-link">Terms & Conditions</button> of the
+          site.
         </label>
       </div>
       {validation && !validation.checkBox && (

@@ -36,10 +36,15 @@ export default () => {
         time.
       </h2>
       <div className="btn-container">
-        <button onClick={() => setCurrentStep(currentStep + 1)}>
+        <button
+          className="step-button"
+          onClick={() => setCurrentStep(currentStep + 1)}
+        >
           Continue Registration
         </button>
-        <button onClick={hendleclick}>Skip</button>
+        <button className="step-button" onClick={hendleclick}>
+          Skip
+        </button>
       </div>
     </div>
   );

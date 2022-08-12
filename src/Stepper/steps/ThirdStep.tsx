@@ -128,9 +128,9 @@ export default () => {
       </div>
       <p style={bonus ? { display: "none" } : undefined}>
         Do you have a bonus code?{" "}
-        <a href="#" onClick={hendleBonus}>
+        <button className="button-link" onClick={hendleBonus}>
           Click here.
-        </a>
+        </button>
       </p>
       <p style={!bonus ? { display: "none" } : undefined}>
         Very Coool Bonus Code

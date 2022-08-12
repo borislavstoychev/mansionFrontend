@@ -45,8 +45,12 @@ export default () => {
       </h1>
       <h2 style={{ textAlign: "center" }}>Have fun, and good luck!</h2>
       <div className="btn-container">
-        <button onClick={handlePlay}>Play Now</button>
-        <button onClick={handlePromotion}>Promotions</button>
+        <button className="step-button" onClick={handlePlay}>
+          Play Now
+        </button>
+        <button className="step-button" onClick={handlePromotion}>
+          Promotions
+        </button>
       </div>
     </div>
   );
